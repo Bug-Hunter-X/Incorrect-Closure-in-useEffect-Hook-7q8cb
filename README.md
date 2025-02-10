@@ -1,0 +1,3 @@
+# Incorrect Closure in React useEffect Hook
+
+This repository demonstrates a common issue in React applications involving incorrect closures over state values within the `useEffect` hook. The example showcases how attempting to access a state variable from outside the scope of the `useEffect` function leads to unexpected behavior. The solution provides a correct implementation using functional updates.
